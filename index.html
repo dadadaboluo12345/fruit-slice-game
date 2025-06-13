@@ -77,7 +77,7 @@
             position: absolute;
             width: 70px;
             height: 70px;
-            background-image: url('https://example.com/bomb.png');
+            background-image: url('images/bomb.png.png');
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -138,7 +138,7 @@
             position: absolute;
             width: 100px;
             height: 100px;
-            background-image: url('https://example.com/splash.png');
+            background-image: url('images/splash.png.png');
             background-size: contain;
             opacity: 0;
             pointer-events: none;
@@ -185,7 +185,11 @@
             isPlaying: false,
             difficulty: 'medium',
             fruitTypes: [
-                'apple', 'banana', 'orange', 'watermelon', 'strawberry'
+                {name: 'apple', image: 'images/apple.png.png'},
+                {name: 'banana', image: 'images/banana.png.png'},
+                {name: 'orange', image: 'images/orange.png.png'},
+                {name: 'watermelon', image: 'images/watermelon.png.png'},
+                {name: 'strawberry', image: 'images/strawberry.png.png'}
             ],
             fruitSpeeds: {
                 easy: 2000,
